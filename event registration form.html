@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event registration</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<header>
+    <center><h1>EVENT REGISTRATION FORM</h1></center>   
+</header>
+<body>
+    <form method="post">
+    <center>
+    <table cellpadding="4">
+        <tr>
+            <td><label for="text">Name </label></td>
+            <td><input type="text" name="fname" required=""></td>
+            <td><input type="text" name="lname" required=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>First Name</td>
+            <td>Last Name</td>
+        </tr>
+        <tr>
+            <td><label for="text">Company </label></td>
+            <td colspan="2"><input type="text" required=""></td>
+        </tr>
+        <tr>
+            <td><label for="text">Email id </label></td>
+            <td colspan="2"><input type="email" required="" placeholder="example@email.com"></td>
+        </tr>
+        <tr>
+            <td><label for="text">Phone </label></td>
+            <td><input type="number" maxlength="10"></td>
+            <td><input type="number" maxlength="10"></td>
+        </tr>  
+        <tr>
+            <td></td>
+            <td>Area Code</td>
+            <td>Phone Number</td>
+        </tr>
+        <tr>
+            <td><label for="text">Subject </label></td>
+            <td>
+                <select name="Subject" id= "subject">
+                    <option value="BSE">Choose Option</option>
+                    <option value="BSE">BSE</option>
+                    <option value="BSCS">BSCS</option>
+                    <option value="BEE">BEE</option>
+                    <option value="BCE">BCE</option>
+                  </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><label for="text">Are you an existing customer?</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="customer" name="yes" value="yes">
+                  <label for="yes">Yes</label>
+            </td>
+            <td> <input type="radio" id="customer" name="no" value="no">
+                  <label for="no">No</label></td>
+            
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="btn"> 
+                    <button type="register" class="btn" >REGISTER</button>
+                </div></td>
+                <td></td>
+        </tr>
+    </table>          
+</center>
+</form>
+</body>
+</html>

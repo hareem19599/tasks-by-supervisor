@@ -1,0 +1,56 @@
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(247, 56, 56);
+    color: white;
+    border: solid rgb(247, 56, 56);
+    border-radius: 3px;
+    
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: gainsboro;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+input[type=email], select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: gainsboro;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: gainsboro;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  label{
+      color: black;
+      font-family: 'century gothic';
+  }
+  td{
+      font-family: 'century gothic';
+      color: grey;
+      font-size: medium;
+  }
